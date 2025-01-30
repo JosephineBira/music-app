@@ -49,7 +49,7 @@ public class LayOutBoomApp{
         centre.add(PlaylistField);
 
         centre.add(new JLabel("Albums:"));
-        JTextField studioField = new JTextField();
+        JTextField AlbumsField = new JTextField();
         centre.add(studioField);
 
         centre.add(new JLabel("Category:"));JComboBox<String> categoryComboBox = new JComboBox<>(Genre);
