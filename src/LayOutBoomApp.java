@@ -7,9 +7,7 @@ public class LayOutBoomApp{
 
     public LayOutBoomApp(){
          this.PrepareBorderFrame();
-
     }
-
     public JFrame PrepareBorderFrame(){
         JFrame MusicApp = new JFrame("MusicApp LayOut");
 
