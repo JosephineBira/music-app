@@ -70,7 +70,6 @@ public class LayOutBoomApp{
                 System.out.println("Available: "+ available);
             }
         });
-
         ExitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
