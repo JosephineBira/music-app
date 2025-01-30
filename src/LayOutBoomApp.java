@@ -18,7 +18,7 @@ public class LayOutBoomApp{
         MusicApp.setLayout(new BorderLayout());
 
         JLabel north = new JLabel("My Music Catalogue", JLabel.CENTER);
-        north.setFont(new Font("Arial", Font.BOLD,30));
+        north.setFont(new Font("Arial", Font.BOLD,40));
         MusicApp.add(north, BorderLayout.NORTH);
 
 
