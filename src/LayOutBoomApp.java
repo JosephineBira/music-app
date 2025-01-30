@@ -47,8 +47,8 @@ public class LayOutBoomApp{
         centre.add(new JLabel("PlayList:"));
         JTextField PlaylistField = new JTextField();
         centre.add(PlaylistField);
-        
-        centre.add(new JLabel("Recording Studio:"));
+
+        centre.add(new JLabel("Albums:"));
         JTextField studioField = new JTextField();
         centre.add(studioField);
 
