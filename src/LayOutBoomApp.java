@@ -50,7 +50,7 @@ public class LayOutBoomApp{
 
         centre.add(new JLabel("Albums:"));
         JTextField AlbumsField = new JTextField();
-        centre.add(studioField);
+        centre.add(AlbumsField);
 
         centre.add(new JLabel("Category:"));JComboBox<String> categoryComboBox = new JComboBox<>(Genre);
         centre.add(categoryComboBox);
