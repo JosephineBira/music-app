@@ -60,7 +60,6 @@ public class LayOutBoomApp{
 
 
         MusicApp.setVisible(true);
-
         SubmitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
