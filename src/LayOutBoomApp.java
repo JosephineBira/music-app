@@ -29,7 +29,7 @@ public class LayOutBoomApp{
         south.add(ExitButton);
         MusicApp.add(south, BorderLayout.SOUTH);
 
-        String[] Categories = {"Rap","Reggae","Ballads"};
+        String[] Categories = {"Rap","Soul music ","Ballads"};
         JList<String> CategoryList = new JList<>(Categories);
         CategoryList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         JScrollPane CategoryScrollPane =  new JScrollPane(CategoryList);
