@@ -76,7 +76,7 @@ public class LayOutBoomApp{
 
                 System.out.println("Artist: " + artist);
                 System.out.println("Studio: " + studio);
-                System.out.println("PlayList: " + Playlist);
+                System.out.println("PlayList: " + PlayList);
                 System.out.println("Category: "+ category);
                 System.out.println("Available: "+ available);
             }
