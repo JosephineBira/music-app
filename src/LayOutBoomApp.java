@@ -70,6 +70,7 @@ public class LayOutBoomApp{
                 String artist = artistField.getText();
                 String studio = studioField.getText();
                 String PlayList=PlaylistField.getText();
+                String Albums=AlbumsField.getText();
                 String category = (String) categoryComboBox.getSelectedItem();
                 boolean available = availableCheckBox.isSelected();
 
