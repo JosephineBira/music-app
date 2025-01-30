@@ -35,7 +35,7 @@ public class LayOutBoomApp{
         JScrollPane CategoryScrollPane =  new JScrollPane(CategoryList);
         MusicApp.add(CategoryScrollPane, BorderLayout.WEST);
 
-        JPanel centre = new JPanel(new GridLayout(5,2));
+        JPanel centre = new JPanel(new GridLayout(5,3));
         centre.add(new JLabel("Artist Name:"));
         JTextField artistField = new JTextField();
         centre.add(artistField);
